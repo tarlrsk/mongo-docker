@@ -1,0 +1,4 @@
+REMOTE_MONGO_URI="mongodb+srv://username:password@cluster0.r0f4y.mongodb.net/"
+LOCAL_USERNAME="root"
+LOCAL_PASSWORD="123456"
+DATABASE="giant-bakery"
