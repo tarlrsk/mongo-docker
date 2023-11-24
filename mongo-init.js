@@ -1,4 +1,4 @@
-db = db.getSiblingDB('giant-bakery');
+db = db.getSiblingDB('giant_bakery');
 db.createCollection('customer');
 
 // db = db.getSiblingDB('admin');
