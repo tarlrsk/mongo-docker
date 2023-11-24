@@ -1,0 +1,8 @@
+# ENV
+config-bakery
+
+# Dump File
+dump/
+
+# Database Data
+db/
