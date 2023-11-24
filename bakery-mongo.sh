@@ -1,5 +1,13 @@
 #!/bin/bash
-source config-bakery
+CONFIG_FILE="config-bakery"
+
+# Check if the config file exists
+if [ ! -f "$CONFIG_FILE" ]; then
+  echo "Error: Config file '$CONFIG_FILE' not found."
+  exit 1
+fi
+
+source "$CONFIG_FILE"
 
 # Check if at least one argument is provided
 if [ "$#" -lt 1 ]; then
@@ -9,6 +17,7 @@ if [ "$#" -lt 1 ]; then
 fi
 
 # Check the action provided as the first argument
+echo "Running..."
 case "$1" in
 "dump")
     # Perform mongodump
