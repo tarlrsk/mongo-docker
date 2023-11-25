@@ -6,3 +6,5 @@ dump/
 
 # Database Data
 db/
+
+.DS_Store
