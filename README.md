@@ -7,7 +7,7 @@ Before executing the dump script, ensure that you have installed the [MongoDB Da
 ### Connecting to the Database
 Use the following connection string to connect to the MongoDB database:
 ```
-mongodb://root:123456@localhost:27017/?authMechanism=DEFAULT
+mongodb://root:123456@localhost:27017/?authSource=admin
 ```
 
 ### Running the Docker Container
