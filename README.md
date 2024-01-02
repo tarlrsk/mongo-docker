@@ -1,4 +1,4 @@
-# Mongo Docker
+# Prisma Mongo Docker
 
 This repository provides a set of scripts and instructions to facilitate the process of managing a MongoDB database using Docker.
 
